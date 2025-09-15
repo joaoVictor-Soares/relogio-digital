@@ -21,7 +21,7 @@ function Relogio(){
   return(
     <div>
       <h2>Relógio Digital</h2>
-      <p>A hora atual é: {hora.toLocaleDateString()}</p>
+      <p>A hora atual é: {hora.toLocaleTimeString()}</p>
     </div>
   )
 }
